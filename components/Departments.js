@@ -4,8 +4,8 @@ function Departments() {
     const [dep, setDep] = useState("cse");
     return (
         <>
-            <div className="overflow-y-scroll scrollbar-hide">
-                <p className="font-bold text-3xl font-serif text-center py-4">
+            <div className="font-montserrat overflow-y-scroll scrollbar-hide">
+                <p className="font-bold text-3xl text-center py-4">
                     Circuital Departments
                 </p>
                 {/* </div> */}
@@ -33,7 +33,7 @@ function Departments() {
                 <div className="flex px-[2rem] py-[1rem] flex-col items-center">
                     {dep === "cse" && (
                         <div className="m-[1rem] bg-white rounded-xl p-[1.5rem] flex w-[60vw] items-center flex-col hover:scale-105 drop-shadow-lg">
-                            <span className="font-bold font-serif text-xl">
+                            <span className="font-bold font-montserrat text-xl">
                                 WHAT IS COMPUTER SCIENCE ENGINEERING?
                             </span>
                             <p className="text-lg">
@@ -68,7 +68,7 @@ function Departments() {
 
                     {dep === "ece" && (
                         <div className="m-[1rem] bg-white rounded-xl p-[1.5rem] flex w-[60vw] items-center flex-col hover:scale-105 drop-shadow-lg">
-                            <span className="font-bold font-serif text-xl">
+                            <span className="font-bold font-montserrat text-xl">
                                 WHAT IS ELECTRONICS AND COMMUNICATION
                                 ENGINEERING?
                             </span>
@@ -102,7 +102,7 @@ function Departments() {
 
                     {dep === "ee" && (
                         <div className="m-[1rem] bg-white rounded-xl p-[1.5rem] flex w-[60vw] items-center flex-col hover:scale-105 drop-shadow-lg">
-                            <span className="font-bold font-serif text-xl">
+                            <span className="font-bold font-montserrat text-xl">
                                 WHAT IS ELECTRICAL ENGINEERING?
                             </span>
                             <p className="text-lg">

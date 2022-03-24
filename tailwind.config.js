@@ -6,7 +6,8 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                comicsans: ["comicsans", "sans-serif"]
+                comicsans: ["comicsans", "sans-serif"],
+                montserrat: ["Montserrat", "sans-serrif"]
             }
         },
     },

@@ -20,7 +20,7 @@ function Courses() {
 
     return (
         <div className="flex flex-col w-[75vw] mx-auto overflow-y-scroll scrollbar-hide">
-            <h1 className="text-center text-4xl font-comicsans mt-4">
+            <h1 className="text-center text-4xl font-montserrat mt-4">
                 Courses
             </h1>
 
@@ -63,7 +63,7 @@ export default Courses;
 const CourseCard = (props) => {
     const router = useRouter();
     return (
-        <div className="font-comicsans flex flex-col justify-between items-center bg-blue-300 pt-5 pb-5 m-5 rounded-2xl space-y-4">
+        <div className="font-montserrat flex flex-col justify-between items-center bg-blue-300 pt-5 pb-5 m-5 rounded-2xl space-y-4">
             <p className="text-xl">{props.title}</p>
             {props.image && (
                 //  eslint-disable-next-line @next/next/no-img-element

@@ -26,19 +26,19 @@ export default function Navbar() {
             </div>
             <div className="w-2/3 flex items-center justify-end h-full py-3 space-x-8 cursor-pointer">
                 <p
-                    className="cursor-pointer text-white font-comicsans"
+                    className="cursor-pointer text-white font-montserrat"
                     onClick={() => router.push("/mentorship")}
                 >
                     Mentorships
                 </p>
                 <p
-                    className="cursor-pointer text-white font-comicsans"
+                    className="cursor-pointer text-white font-montserrat"
                     onClick={() => router.push("/programs")}
                 >
                     Courses
                 </p>
                 <a
-                    className="cursor-pointer text-white font-comicsans"
+                    className="cursor-pointer text-white font-montserrat"
                     href="https://roadmap.sh/"
                     rel={"noreferrer"}
                     target={"_blank"}
@@ -46,13 +46,13 @@ export default function Navbar() {
                     Roadmaps
                 </a>
                 <p
-                    className="cursor-pointer text-white font-comicsans"
+                    className="cursor-pointer text-white font-montserrat"
                     onClick={() => router.push("/fields")}
                 >
                     Departments
                 </p>
                 <p
-                    className="cursor-pointer text-white font-comicsans"
+                    className="cursor-pointer text-white font-montserrat"
                     onClick={() => router.push("/faqs")}
                 >
                     FAQ&apos;s
@@ -60,7 +60,7 @@ export default function Navbar() {
                 {!user ? (
                     <>
                         <p
-                            className="cursor-pointer text-white font-comicsans"
+                            className="cursor-pointer text-white font-montserrat"
                             onClick={signIn}
                         >
                             Sign In
@@ -75,7 +75,7 @@ export default function Navbar() {
                     </>
                 ) : (
                     <p
-                        className="cursor-pointer text-white font-comicsans underline"
+                        className="cursor-pointer text-white font-montserrat underline"
                         onClick={signout}
                     >
                         Hi, {user.displayName}
