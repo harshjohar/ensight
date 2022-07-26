@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ENSIGHT
 
-## Getting Started
+*Ensight*(Educational insight) is an ed tech community startup run by the students of Punjab Engineering College, Chandigarh. Here we tend to help our fellow batchmates and juniors all over the country. The main aim of ensight is to help those who have doubts related to education, career etc. by connecting them with their seniors or fellows who have already excelled in that particular field(whom we mention as student mentors). We also educate students about different fields they can opt for in accordance with their interests and passions. We talk about some under explored skills and fields so that students know they don't have to follow what others are doing, they have to be the best in what they are so as to achieve the maximum results.
 
-First, run the development server:
++ ## How we operate:
+1. We have our youtube channel where we cover different topics, educating students about finance majorly talking about personal finance, we make podcasts with people who have achieved something in their lives and set a benchmark for others, so that others can learn from their decisions, mistakes etc.
+2. We also have social media presence on instagram and linkedIn, where are main is to tell students about different career fields in a unique way. We interview people who have recently graduated or are under going graduation in different fields so as to present it in front of the world, what currently is happening in that specific field and how one should be prepared while thinking of getting into that field.
+3. Right now we have some limited student mentors as we are growing as a community, but still we have helped a lot of students get out of the dilemma that everyone faces, that "where they are going".
 
-```bash
-npm run dev
-# or
-yarn dev
-```
++ ## About this project
+1. This project was made to be showcased at the smart india hackathon 2022 pec internal round.
+2. Here we tried to cover all and make a one stop portal for all the services we provide, that too the project was made in less than 24 hours.
+3. 6 members worked on this and everyone was assigned with their own tasks.
+4. Here we collect the student mentor data and students who want help in specific fields, and patch them accordingly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
++ ## Future perspective 
+1. We aim to introduce ML model which will retrieve the right solution or connect students to student mentors when we'll have enough presence and data set.
+2. It will be a one stop solution for a student to know about universities, avail mentorships, know about different career fields, connect with their fellow students all over the country and get to know what others are doing, what innovations are happening countrywide and a lot more.
